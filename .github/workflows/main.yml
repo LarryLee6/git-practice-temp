@@ -26,4 +26,4 @@ jobs:
           python-version:3.11
 
       - name: Install dependencies
-      run: pip install mkdocs==1.5.2
+        run: pip install mkdocs==1.5.2
