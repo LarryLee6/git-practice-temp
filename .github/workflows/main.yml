@@ -2,12 +2,12 @@ name: Site Generation And Deployment
 
 on:
   push:
-    branches:
-      - main
-  workflow dispatch:
+      branches:
+          - main
+  workflow_dispatch:
 
 permissions:
-  contents: write
+    contents: write
 
 jobs:
   deploy:
